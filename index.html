@@ -48,6 +48,7 @@
         margin: 0 auto;
         width: 300px;
         border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
 
       .white-base {
@@ -58,6 +59,7 @@
         border-radius: 15px;
         text-align: center;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 1em;
       }
 
       .inner-content {
@@ -78,6 +80,12 @@
       }
       #inner-p {
         font-size: 1rem;
+      }
+
+      @media (max-width: 375px) {
+        .white-base {
+          padding: 10px;
+        }
       }
     </style>
   </head>
